@@ -1,0 +1,24 @@
+/* Estilos generales */
+body {
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+}
+
+/* Diseño de la tarjeta */
+.tarjeta-pokemon {
+  background-color: darkred;
+  color: white;
+  width: 300px; /* Corregido: se agregó la unidad px */
+  margin: 20px;
+  padding: 16px; /* Se agregó el espacio interior recomendado */
+
+  /* El borde funciona correctamente */
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.tipo {
+  font-weight: bold;
+  text-align: center; /* Corregido: se cambió "centro" a "center" */
+}
